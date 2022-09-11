@@ -1,0 +1,78 @@
+.comment{
+width:710px;
+    background:#F8F8FF;	
+	height:auto;
+	margin-top:-200px;
+	margin-left:350px;
+	padding-bottom:20px;
+	
+}
+
+#comment_show{
+width:710px;
+	height:auto;
+	margin-left:350px;
+
+	  margin-bottom:20px;
+}
+#comment_show ul {
+background:#F8F8FF;
+margin-top:5px;
+
+padding-bottom:5px;
+border:1px solid gray;
+}
+#header{
+width:940px;
+    background:#F8F8FF;	
+	height:50px;
+	margin-top:6px;
+	margin-left:20px;
+	padding-top:60px;
+	font-size:25px;
+	padding-left:100px;
+}
+
+#user_profile{
+width:250px;
+
+	height:auto;
+	margin-top:-60px;
+	margin-left:70px;
+	
+}
+
+#feedback{
+	margin-left:1295px;
+	margin-top:220px;
+	position:fixed;
+	width:80px;
+	padding:0px 2px 0px 5px;
+	background:#0095cd;
+	font-family:tahoma;
+	font-size:17px;
+	-webkit-transform:rotate(-90.0deg);
+	text-decoration:none;
+	color:white;
+	}
+	#star-six{
+	border-left:50px solid transperant ;
+border-right:50px solid transperant ;
+border-bottom:100px solid red ;
+position:relative;
+width:0;
+height:0;
+	}
+	#star-six:after{
+	width:0;
+height:0;
+	border-left:50px solid transperant ;
+	border-right:50px solid transperant ;
+	border-top:100px solid red;
+	position:absolute;
+	content:'*';
+	top:30px;
+	left:-50px;
+	}
+	
+	

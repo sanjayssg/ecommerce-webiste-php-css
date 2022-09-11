@@ -1,0 +1,166 @@
+
+
+/*Offers*/
+	
+#offer{
+	width:980px;
+	
+	background:#037;
+	margin-top:-14px;
+}
+#offer_cat{
+background:#f9f9ff;
+width:965px;
+height:30px;
+padding:10px 10px 8px 10px;
+margin-left:-5px;
+margin-top:-60px;
+border-bottom:2px solid gray;
+color:white;
+}
+#offer_cat li{
+display:inline-block;
+padding-top:8px;
+
+}
+#offer_cat a{
+text-decoration:none;
+color:gray;
+padding:20px 6px 11px 10px;
+}
+#offer_cat a:hover{
+text-decoration:none;
+background:#005d92;
+border-bottom:2px solid red;
+color:white;
+}
+#offer_list{
+background:white;
+width:1000px;
+padding-top:4px;
+
+}
+
+#show_product{
+background:white;
+width:950px;
+margin-top:-20px;
+margin-left:50px;
+border-top:2px solid gray;
+}
+/* product display*/
+
+#under_product2{
+	width:221px;
+	height:330px;
+	background:white;
+	margin-bottom:40px;
+	border:1px solid lightgray;
+	
+	border-top:3px solid red;
+	}
+	
+	#single_product2{/*main*/
+		float:left;
+	
+		margin-left:13.6px;
+		/*border :1px solid cyan;*/
+	}
+	
+	#under_product2:hover{
+	
+	text-decoration:none;
+	
+	box-shadow: 0 0 2px red;
+	}
+	#under_product2 hr{
+		border-bottom:1px solid lightgray;
+		width:200px;
+	}
+	
+#view_product{
+	/* input type submit*/
+		
+		margin-top:8px;
+		font-family: tahoma;
+		font-size:23px;
+		text-align:center;
+		color:orange;
+		
+		
+
+}
+#view_product li{
+	padding:5px 10px;
+		display:inline;
+			border:1px solid red;
+			margin-left:-4px;
+			
+			
+}
+	#view_product li:hover {
+		text-decoration: none;
+		border:1px grover red;	
+     box-shadow: 0 0 1px red;
+	 background:orange;
+	 color:white;
+	}
+	#view_product a{
+		text-decoration:none;
+		font-weight:none;
+		color:orange;
+		}
+		#view_product a:hover{
+		text-decoration:none;
+		font-weight:none;
+		color:white;
+		}
+
+/*time*/
+#days {
+	display:inline;
+}		
+.electronics	a.electronics{
+	
+	text-decoration:none;
+	background:#005d92;
+border-bottom:3px solid gray;
+
+}
+.fashion	a.fashion{
+	text-decoration:none;
+	background:#005d92;
+border-bottom:3px solid gray;
+}
+.home a.home{
+		text-decoration:none;
+	background:#005d92;
+border-bottom:3px solid gray;
+}
+.books a.books{
+		text-decoration:none;
+	background:#005d92;
+border-bottom:3px solid gray;
+}
+.store a.store{
+		text-decoration:none;
+	background:#005d92;
+border-bottom:3px solid gray;
+}
+
+
+	
+	
+#time{
+width:700px;
+	margin-top:-80px;
+	margin-left:300px;
+	color:white;
+	font-size:25px;
+	
+}
+#time li{
+
+display:inline;
+padding-left:20px;
+}

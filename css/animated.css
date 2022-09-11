@@ -1,0 +1,71 @@
+ul.animatedbgul{
+	margin: 10px;
+	padding:;
+	list-style: none;
+}
+
+
+ul.animatedbgul li{
+	width: 80%;
+	clear:left; /* clear contents of inner span, which will be floated left */
+	overflow: hidden; /* clear contents of inner span, which will be floated left */
+}
+
+ul.animatedbgul li span{
+	display: block;
+	float: left; /* cause width of each span to take up only as much space as needed */
+	min-width: 0; /* animated property. Explicit min-width defined so animation works. */
+	margin-bottom: 5px;
+	padding: 2px;
+	color: black;
+}
+
+ul.animatedbgul li:hover span{
+	color: #fff;
+	background: #036;
+	
+	min-width: 405px; /* animated property. Set to desired final length of background */
+	-webkit-box-shadow: 0 0 5px gray;
+	-moz-box-shadow: 0 0 5px gray;
+	box-shadow: x 0 5px gray;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.6s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+
+
+ul.animated{
+	margin: px;
+	padding:10px;
+	list-style: none;
+}
+ul.animatedbgul li{
+	width: 80%;
+	clear:left; /* clear contents of inner span, which will be floated left */
+	overflow: hidden; /* clear contents of inner span, which will be floated left */
+}
+
+ul.animated li span{
+	display: block;
+	float: left; /* cause width of each span to take up only as much space as needed */
+	min-width: 0; /* animated property. Explicit min-width defined so animation works. */
+	margin-bottom: 5px;
+	padding: 2px;
+	color: black;
+}
+
+ul.animated li:hover span{
+	color: #fff;
+	background: #036;
+	
+	min-width: 140px; /* animated property. Set to desired final length of background */
+	-webkit-box-shadow: 0 0 5px gray;
+	-moz-box-shadow: 0 0 5px gray;
+	box-shadow: x 0 5px gray;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.6s ease-out;
+	transition: all 0.2s ease-out;
+}

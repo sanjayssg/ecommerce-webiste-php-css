@@ -1,0 +1,284 @@
+
+
+.con {
+position:relative;
+	width:1475;
+	margin-left:-90px;
+
+}
+
+
+
+.nav {
+    text-align:center;
+	font-weight: 400; /* 400 thinner */
+	font-size: 17px;
+	line-height:1px;
+ -webkit-box-shadow: -1px 3px -1px 0px rgba(0,0.75,0,);
+-moz-box-shadow: -1px 3px -1px 0px rgba(0,0,0.75,0);
+box-shadow: -1px 3px -1px 0px rgba(0,0,0.75,0);
+	position: relative;
+	padding-left:20px; /* Fix for inline-block spacing*/
+	margin-left: -120px;
+	margin-top:15px;
+padding-top:20px;
+ 
+    background-color:#004A95;
+}
+
+
+.nav a, .nav a:link, .nav a:visited, .nav a:hover, .nav a:focus, span {
+	color:WHITE;
+	
+	text-decoration: none;
+}
+
+
+.nav > li {
+	display: inline;
+	text-align: left;
+	margin-left:30px; /* For the inline-block spacing and navigation items like men women,,, */
+padding:10px 10px 6px 10px;
+
+	}
+
+
+
+
+
+
+.nav > li:hover > a{
+	color:white;/*font color after arrow goes on navbar text*/
+   
+  
+}
+
+
+.nav > li:hover {
+/*bg color for navbar text i.e elect, men, women*/
+background:red;
+border-bottom:4px solid brown;
+border-top-left-radius:2px 2px;
+border-top-right-radius:2px 2px;
+}
+
+
+
+.nav > li > ul {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	list-style: none;
+	top:53px;
+	background-color:white;
+	width: 200px;
+	text-align:center;
+	margin-top:20px;
+	padding: 10px;
+	z-index: 99;
+	
+}
+
+
+.nav > li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+	margin-top: 0px;
+}
+
+
+.nav li > ul li {
+    
+	font-size: 20px;
+	position: center;
+	display: block;
+	padding: 15px 10px;
+}
+
+
+.nav > li > ul  li:hover {
+	background-color: #00619;
+}
+
+.nav ul  li:hover > a { /* drop down list hover*/
+	color: black;
+	font-weight:bolder;
+	
+}
+
+.nav > li > ul li ul li:hover {
+	background-color: #004b6f;
+}input#mobile_menu { display: none; }
+
+.nav > li > ul li ul li ul {
+	background-color: #004b6f;
+}
+
+.nav > li > ul li ul li ul li:hover {
+	background-color: #00344d;
+}
+
+input#mobile_menu { display: none; }
+
+.nav > li > .fulldrop {
+	opacity: 0;
+	visibility: hidden;
+	position: fixed;
+	list-style: none;
+	top:130px;
+	left: 260px;
+	background-color:white;
+	width: 75%;
+	height:515px;
+	text-align: top;
+	margin-top:30px;
+	padding: 0;
+	z-index: 99;
+	overflow: hidden;
+	border:1px solid f1f1f1;
+-webkit-box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+border-bottom-left-radius:5px 5px;
+border-bottom-right-radius:5px 5px;
+
+}
+
+
+.nav > li:hover .fulldrop {
+	opacity: 3;
+	visibility: visible;
+	margin-top: 0px;
+}
+
+.nav .coldrop .column {width: 130px;margin:0 9px;}
+
+
+
+.nav .column {
+    background:#F8F8FF;	
+width:180px;
+	float: left;
+	color:red;
+	height:550px;
+	padding: 0 0 0 2.2%;
+	font-family:tahoma;
+}
+
+.nav .column ul {
+	padding: 0;
+	margin: 0;
+}
+
+.nav .column ul li {
+	
+	margin-left:3px;
+	list-style: none;
+	font-size: 13.7px;
+	padding:2px;
+
+}
+
+.nav .column h3 {
+	font-size: 15px;
+		font-weight:bolder;
+	padding: 20px;
+	color:black;
+  margin-left:-17px;	
+}
+
+.nav .column ul li a {
+display: block;
+	padding: 0 0 15px 0;
+	color:black;
+	
+}
+/*.nav .column ul li a:hover {
+	padding: 3px 3px 10px 3px;
+	color:black;
+	border:1px solid yellow;
+}
+*/
+/*sec_column*/
+.nav .coldrop .sec_column {width: 130px;margin:0 0px;}
+
+
+
+.nav .sec_column {
+
+	width: 192px;
+	float: left;
+	height:552px;
+	margin: 0 0 0 1%;
+	font-family:tahoma;
+}
+
+.nav .sec_column ul {
+	padding: 0;
+	margin: 0;
+}
+
+.nav .sec_column ul li {
+	padding-left: 3x;
+	margin-left:3px;
+	list-style: none;
+	font-size: 13.7px;
+	margin-left:20px;
+	margin-right:20px;
+	padding:2px;
+}
+
+.nav .sec_column h3 {
+	font-size: 15px;
+		font-weight:bold;
+	padding: 14px 0;
+
+	margin: 5px 0 5px;
+	margin-left:21px;
+	color:black;
+
+
+	}
+
+.nav .sec_column ul li a {
+	display: block;
+
+	padding: 0 0 15px 0;
+	color:black;
+}
+
+
+
+
+
+/* Arrows */
+.nav > li.dropdown > a:after {
+	 content: " \f107";
+	 font-family: FontAwesome;
+	 color: #004A95;
+}
+
+.nav ul li.dropdown:after {
+
+  position: absolute;
+  left: 100px;
+  font-family: FontAwesome;
+  display: inline-block;
+  color: #fff;
+  margin-left:5px;
+  margin-top: 20px;
+}
+
+#next_link{
+ font-size:18px;
+ margin-top:10px;
+}
+/*.nav .d_footer{
+width:700px;
+height:20px;
+margin-top:300px;
+margin-left:200px;
+position:relative;
+}*/
+
+

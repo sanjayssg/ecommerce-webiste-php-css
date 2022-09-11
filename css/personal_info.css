@@ -1,0 +1,30 @@
+
+.register_page{   /* input type text*/
+
+		padding: 5px 20px;
+		font-family:tahoma;
+		font-size:18px;
+		border:1px solid black; 
+		width:270px;
+		height:40px;
+		margin-bottom:5px;
+		margin-right:260px;
+	}
+	.register_page:hover{
+		border:1px solid cyan;
+	}
+	.register_button{
+		margin-top:20px;
+		width:180px;
+		height:40px;
+		color:black;
+		font-size:20px;
+		
+	}
+	.log{
+		font-weight:bold;
+
+		text-decoration:none;
+		color:skyblue;
+	}
+	

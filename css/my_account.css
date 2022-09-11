@@ -1,0 +1,251 @@
+
+.right_content{
+	width:1000px;
+    background:white;	
+	height:auto;
+	float:left;
+	padding-top:150px;
+	margin-left:200px;
+	margin-top:0px;
+	margin-right:200px;
+	}
+.left_content{
+width:200px;
+float:left;
+height:700px;
+background:white;
+margin-left:20px;
+padding-right:20px;
+padding-bottom:100px;
+}
+
+.left_content  li{
+	
+	color:white;
+   padding:0px 0px 5px 5px;
+	text-align:left;
+	font-size:15px;
+	font-family:tahoma;
+}
+.left_content a  {
+		text-decoration:none;
+color:black;
+}
+.left_content hr{
+	width:190px;
+	float:left;
+}
+.left_content h2{
+	width:180px;
+	background:#036;
+	padding:5px 10px 5px 10px;
+	color:white;
+	font-size:20px;
+	margin-bottom:5px;
+}
+#my_img{
+	margin-right:10px;
+	border-radius:50%;
+	border:2px solid cyan;
+	width:60;
+	height:60;
+}
+ .left_content h3{
+	margin-top:10px;
+	width:150px;
+	padding:0px 10px 5px 5px;
+	color:gray;
+
+}
+  .personal a.personal{
+	  color:white;
+	background:#06c;
+padding:0px 5px 0px 5px;
+		
+ }
+ 
+.personal  a:hover{
+ color:white;
+	background:#06c;
+
+	min-width:162px; /* animated property. Set to desired final length of background */
+	-webkit-box-shadow: 0 0 5px gray;
+	-moz-box-shadow: 0 0 6px gray;
+	box-shadow: 0 0 5px gray;
+	
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+ 
+ }
+ .change a.change{
+	   color:white;
+	background:#06c;
+padding:0px 5px 0px 5px;
+	
+  }
+.change  a:hover{
+ color:white;
+	background:#06c;
+
+	min-width:162px; /* animated property. Set to desired final length of background */
+	-webkit-box-shadow: 0 0 5px gray;
+	-moz-box-shadow: 0 0 6px gray;
+	box-shadow: 0 0 5px gray;
+	
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+ 
+ }
+   .image a.image{
+	 color:white;
+	background:#06c;
+padding:0px 5px 0px 5px;
+	
+  }
+.image  a:hover{
+ color:white;
+	background:#06c;
+
+	min-width:162px; /* animated property. Set to desired final length of background */
+	-webkit-box-shadow: 0 0 5px gray;
+	-moz-box-shadow: 0 0 6px gray;
+	box-shadow: 0 0 5px gray;
+	
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+ 
+ } .last_login a.last_login{
+	 color:white;
+	background:#06c;
+padding:0px 5px 0px 5px;
+	
+  }
+ .last_login  a:hover{
+ color:white;
+	background:#06c;
+
+	min-width:162px; /* animated property. Set to desired final length of background */
+	-webkit-box-shadow: 0 0 5px gray;
+	-moz-box-shadow: 0 0 6px gray;
+	box-shadow: 0 0 5px gray;
+	
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+ 
+ }
+ .logout a.logout{
+	 color:white;
+	background:#06c;
+padding:0px 5px 0px 5px;
+	
+  }
+ .logout  a:hover{
+ color:white;
+	background:#06c;
+
+	min-width:162px; /* animated property. Set to desired final length of background */
+	-webkit-box-shadow: 0 0 5px gray;
+	-moz-box-shadow: 0 0 6px gray;
+	box-shadow: 0 0 5px gray;
+	
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+ 
+ }
+ .my_order_cancel a.my_order_cancel {
+	 color:white;
+	background:#06c;
+padding:0px 5px 0px 5px;
+	
+  }
+.my_order_cancel   a:hover{
+ color:white;
+	background:#06c;
+
+	min-width:162px; /* animated property. Set to desired final length of background */
+	-webkit-box-shadow: 0 0 5px gray;
+	-moz-box-shadow: 0 0 6px gray;
+	box-shadow: 0 0 5px gray;
+	
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+ 
+ }
+  .delete a.delete{
+	   color:white;
+	background:#06c;
+padding:0px 5px 0px 5px;
+	
+  }
+.delete  a:hover{
+ color:white;
+	background:#06c;
+
+	min-width:162px; /* animated property. Set to desired final length of background */
+	-webkit-box-shadow: 0 0 5px gray;
+	-moz-box-shadow: 0 0 6px gray;
+	box-shadow: 0 0 5px gray;
+	
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+ 
+ }
+  #orders a#orders{
+	  color:white;
+	background:#06c;
+padding:0px 5px 0px 5px;
+	
+  }
+#orders  a:hover{
+ color:white;
+	background:#06c;
+
+	min-width:162px; /* animated property. Set to desired final length of background */
+	-webkit-box-shadow: 0 0 5px gray;
+	-moz-box-shadow: 0 0 6px gray;
+	box-shadow: 0 0 5px gray;
+	
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+ 
+ }
+   .frend_orders a.frend_orders{
+	 color:white;
+	background:#06c;
+width:100px;
+	
+  }
+   .my_orders a.my_orders{
+   
+	   color:Black;
+	  background:white;
+	  padding:5px 20px 3px 25px;
+	 
+	  border-radius:7px 7px 0 0;
+	  border:1px solid black;
+  }
+  .all_orders a.all_orders{
+	 color:Black;
+	  background:white;
+	  padding:5px 20px 3px 25px;
+	 
+	  border-radius:7px 7px 0 0;
+	  border:1px solid black;
+	  
+  }

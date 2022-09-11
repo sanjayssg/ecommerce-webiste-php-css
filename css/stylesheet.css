@@ -1,0 +1,442 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+body{
+    background:#F8F8FF;	
+
+	font-family:tahoma;
+}
+#pagetop{
+
+position:fixed;
+top:0px;
+width:100%;
+height:90px;
+background:#06c;
+color:#FFF;
+font-size:23px;
+padding-top:20px;
+padding-bottom:20px;
+transition:height 0.3s linear 0s, padding 0.3s linear 0s;
+overflow:hidden;
+}
+#pagetop > #menu{
+position:absolute;
+
+width:100%;
+background:#004A95;
+height:0px;
+
+transition:height 0.3s linear 0s;
+}
+#wrapper{margin-top:530px;}
+/* main header starts*/
+.main_header
+{
+background:#06c;
+width:1350px;
+height:auto;
+
+
+}
+
+#navbar{
+	width:1350px;
+	height:70px;
+	background:#004A95;
+    color:white;
+	
+	
+}
+
+.right_content{
+	width:80%;
+    background:white;	
+	height:auto;
+	float:left;
+	margin-top:123px;
+margin-left:10%;
+
+	}
+	#left_content{
+width:90%;
+float:left;
+background:white;
+margin-top:10px;
+margin-left:1%;
+}
+	
+	#like{
+	margin-left:-32px;
+	margin-top:300px;
+	position:fixed;
+	width:80px;
+	background:orange;
+	font-family:tahoma;
+	font-size:17px;
+	-webkit-transform:rotate(-90.0deg);
+	color:white;
+	padding-left:10px;
+	}
+	#like a{
+	text-decoration:none;
+	color:white;
+	}
+	#wishlist{
+	margin-left:1283px;
+	margin-top:360px;
+	position:fixed;
+	width:90px;
+	float:right;
+	background:orange;
+	font-family:tahoma;
+	font-size:17px;
+	-webkit-transform:rotate(-90.0deg);
+	text-decoration:none;
+	color:white;
+	padding-left:10px;
+	padding-right:10px;
+	border-top-right-radius: 3px 3px;
+		border-top-left-radius: 3px 3px;
+	}
+	
+	#offer_tag  {
+	position: absolute; 
+	width: 100px; 
+	height: 23px;
+	border-bottom: white 1.5px dashed;
+	border-top: white 1.5px dashed;
+	box-sizing: content-box;
+	margin-top:-15px;
+	float:center;
+	padding-top:5px;
+	margin-left:25px;
+	}
+	#offer_tag  a{
+
+		
+		
+	}
+	#offer_tag  a:hover{
+	
+    padding:9px 0px 4px 0px;
+	border-bottom: white 1.5px dashed;
+	border-top: white 1.5px dashed;
+
+	}
+
+.shopping_cart{
+	width:0px;
+	padding:9px 5px 7px 5px;
+	height:40px;
+	background:#0095cd;
+	border:1px solid #004A95;
+		border-top-right-radius: 3px 3px;
+		border-bottom-right-radius: 3px 3px;
+		border-top-left-radius: 3px 3px;
+		border-bottom-left-radius: 3px 3px;
+		font-size:px;
+}
+.shopping_cart:hover{
+	text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+
+#helpme{
+	text-align:center;
+	font-size:10px;
+	margin-top:-20px;
+	}
+	
+	#helpme li{
+	list-style:none;
+	display:inline;
+	}
+	#helpme a{
+	color:white;
+	text-decoration:none;
+	font-size:15px;
+	
+	}
+	#helpme a:hover{
+		text-decoration:underline;
+
+	
+	}
+
+#bitwise{
+		color:white;
+	}
+	.corp
+{
+	color:black;
+	margin-top:20px;
+	text-align:left;
+	margin-left:210px;
+	
+}
+#kee_in_touch {
+margin-right:200px;
+}
+#keep_in_touch li{
+margin-top:10px;
+float:center;
+text-align:center;
+background:gray;
+padding:3px 0px 0px 0px;
+list-style:none;
+display:inline-block;
+width:40px;
+height:40px;
+border-radius:100%;
+
+}
+#keep_in_touch a {
+text-decoration:none;
+color:black;
+}
+
+#keep_in_touch  li:hover{
+text-decoration:none;
+background:cyan;
+
+}
+
+#footer
+	{
+	-webkit-box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+box-shadow: 0 0 5px #036;
+	width:100%;
+	background:#F0F0F0;
+	 text-align:center;
+	 color:white;
+	}
+
+
+
+#cart table{
+float:center;
+margin-left:-100px;
+}
+#cart table th{
+color:black;
+font-weight:bold;
+text-align:left;
+float:center;
+padding-left:100px;
+padding-bottom:20px;
+}
+#cart table td{
+padding-left:100px;
+padding-top:-10px;
+}
+
+	
+#cart table td a
+	{
+   color:gray;
+
+	text-decoration:none;
+	}
+#cart	table td a:hover
+	{
+	color:gray;
+text-decoration:underline;
+	}	
+	#track{
+	text-align:center;
+	margin-top:50px;
+	font-size:20px;
+	border-bottom:1px solid gray;
+	border-top:1px solid gray;
+	padding:10px 0px 10px 180px;
+	margin-left:210px;
+	margin-right:210px;
+	color:black;
+	font-weight:bold;
+	}
+		#track:hover{
+background:skyblue;
+	}
+			#track a:hover{
+			text-decoration:none;
+	}
+	#product_show{
+width:1200px;
+margin-left:20px;
+}
+	#under_product{
+	width:98.6%;
+	height:370px;
+	background:white;
+	margin-bottom:20px;
+	border:1px solid f1f1f1;
+margin-left:10px;
+	}
+	
+	#single_product{/*main*/
+		float:left;
+	
+		
+		/*border :1px solid cyan;*/
+	}
+	
+	#under_product:hover{
+	border:1px grover cyan;
+	text-decoration:none;
+
+	-webkit-box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+box-shadow: 0 0 5px cyan;
+	}
+	
+#buynow {
+	/* input type submit*/
+		margin-top:60px;
+		padding: 5px 15px;
+		font-family: tahoma;
+		font-size:26px;
+		text-align:center;
+		color:black;
+		background:#F5F5F5;
+		font-weight:bold;
+	margin-left:10px;
+		margin-right:10px;
+		border-bottom:5px solid #0095cd;
+		
+	
+	
+}
+	#buynow:hover {
+		text-decoration: none;
+		background:#0095cd;
+		color:white;
+
+	}
+	#buynow a{
+		color:White;
+		text-decoration:none;
+		}
+		
+ 
+		#table{
+	margin-bottom:10px;
+	background:white;
+	border:1px solid f1f1f1;
+	margin-left:215px;
+	margin-top:10px
+	
+	}
+	
+	
+	#table:hover{
+	border:1px grover cyan;
+	text-decoration:none;
+	-webkit-box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 3px -1px rgba(0,0,0,0.75);
+box-shadow: 0 0 5px cyan;
+	}
+#error_text{
+margin-left:50px;
+padding:7px 50px 7px 10px;
+background:pink;
+color:white;
+border:1px solid red; 
+display:hidden;
+}
+#total_wish{	
+background:yellow;
+border-radius:60%;
+margin-left:-5px;
+border:1px solid black;
+padding:3px;
+color:black;
+font-size:15px;
+
+}	
+
+
+
+
+ul.animatedbgul{
+cursor:pointer;
+margin-top:15px;
+margin-left:10px;
+}
+
+ul.animatedbgul h3{
+font-family:arial;
+margin-left:35px;
+font-size:18px;
+color:#ce3e3e;
+
+}
+ul.animatedbgul li{
+
+    font-size:16px;
+    margin:0px;
+	padding-bottom:1x;
+	width: 100%;
+	clear:left; /* clear contents of inner span, which will be floated left */
+	overflow: hidden; /* clear contents of inner span, which will be floated left */
+}
+
+
+
+ul.animatedbgul li span{
+	display: block;
+	float:left; /* cause width of each span to take up only as much space as needed */
+	min-width: 0px; /* animated property. Explicit min-width defined so animation works. */
+	margin-bottom:0px;
+	padding: 1px;
+	padding-left:20px;
+	color: black;
+}
+
+
+ul.animatedbgul li:hover span{
+	color:white;
+	background:#11145b;
+
+	min-width:162px; /* animated property. Set to desired final length of background */
+	-webkit-box-shadow: 0 0 5px gray;
+	-moz-box-shadow: 0 0 6px gray;
+	box-shadow: 0 0 5px gray;
+	
+	-webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
+}
+
+ul.animatedbgul a
+{
+color:#5d5d5d;
+text-decoration:none;
+}
+ul.animatedbgul a:hover{
+color:white;}
+
+/*left_header animation ends*/
+.let{
+background:red;
+padding:10px;
+color:white;
+text-decoration:none;
+border:2px solid black;
+}
+.let :hover{
+text-decoration:none;
+background:cyan;
+}

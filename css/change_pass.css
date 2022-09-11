@@ -1,0 +1,31 @@
+
+.change_page{   /* input type text*/
+
+	
+		padding: 5px 20px;
+		font-family:tahoma;
+		font-size:18px;
+		border:1px solid black; 
+		width:270px;
+		height:40px;
+		margin-bottom:5px;
+		margin-right:260px;
+	}
+	
+
+	
+	
+	.change_button{
+		margin-top:20px;
+		width:130px;
+		height:30px;
+		color:black;
+
+		
+	}
+	.log{
+		font-weight:bold;
+text-decoration:none;
+		color:skyblue;
+	}
+	

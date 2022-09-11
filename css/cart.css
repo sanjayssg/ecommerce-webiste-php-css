@@ -1,0 +1,128 @@
+/* cart page */
+
+#total_cart{	
+background:yellow;
+border-radius:40%;
+margin-left:-5px;
+border:1px solid black;
+padding:3px;
+-webkit-transform:rotate(-90.0deg);
+}
+#cart_page table { 
+margin-bottom:20px;
+margin-left:16px;
+}
+
+#cart_page  th {
+border:1px solid lightgray;
+padding:12px 0px 12px 10px;
+background:f8f8ff;
+border-top:2px solid #696969;
+
+}
+#cart_page  td {
+border:1px solid lightgray;
+background:white;
+padding:10px 0px 10px 0px;
+
+
+}#cart_page2 table { 
+margin-bottom:20px;
+margin-left:80px;
+
+}
+
+#cart_page2  th {
+border:1px solid lightgray;
+
+background:f8f8ff;
+border-top:2px solid #696969;
+
+}
+#cart_page2  td {
+border:1px solid lightgray;
+background:white;
+
+
+
+}
+#cart_qty{   /* input type text*/
+		padding: 5px 10px;
+		font-size:18px;
+		border:1px solid #0076a3; 
+
+		
+	}
+	
+
+#cart_express {
+	/* input type submit*/
+margin-left:100px;
+
+		padding: 9px 40px;
+		font-family: tahoma;
+		font-size:16px;
+		text-align:center;
+		color:white;
+		background:#6FC;
+		font-weight:bold;
+		font-style:italic;
+		border:1px solid darkgray;
+	width:210px;
+	
+}
+	#cart_express:hover {
+		text-decoration: none;
+		background:#0095cd;
+		color:white;
+
+	}
+	#cart_express a:hover{
+		color:White;
+		text-decoration:none;
+		}
+#cart_update{
+	/* input type submit*/
+		margin-left: -50px;
+		padding: 10px 30px;
+		font-family: tahoma;
+		font-size:18px;
+		outline: none;
+		cursor: pointer;
+		text-decoration: none;
+		color: #F1F1F1;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adzz,  #4168e0);
+		
+	}
+	#cart_update:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+
+	#cart_continue{
+	/* input type submit*/
+		margin-left:100px;
+		padding: 8px 30px;
+		font-family: tahoma;
+		font-size:18px;
+		outline: none;
+		cursor: pointer;
+		text-decoration: none;
+		color: #F1F1F1;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adzz,  #4168e0);
+		
+	}
+	#cart_continue:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}

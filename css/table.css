@@ -1,0 +1,59 @@
+
+.insert{
+	width:700px;
+	 margin-top:20px;
+	 border:1px solid cyan;
+	 margin-bottom:20px;
+	 float:right;
+	 margin-right:50px;
+}
+.insert h2{
+	font-size:25px;
+}
+.insert td{
+	font-size:18px;
+	padding:7px 20px 0  10px;
+	border:1px solid gray;
+	padding:0px 0px 0px 30px;
+}
+.insert th{
+	font-size:18px;
+	padding:7px 20px 0  10px;
+	border:1px solid gray;
+	font-weight:bold;
+}
+.insert a{
+text-decoration:none;
+color:gray
+}
+.input{
+	height:35px;
+	width:300px;
+font-size:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	margin-bottom:10px;
+}
+.select{
+	height:30px;
+	width:300px;
+	padding:0px 50px 0 10px;
+	font-size:16px;
+margin-top:10px;
+	margin-bottom:10px;
+}
+.button{
+	width:170px;
+padding:7px 20px 10px  10px;
+	font-size:16px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.file{
+	height:40px;
+	width:300px;
+	padding-bottom:10px;
+	font-size:16px;
+	margin-top:10px;
+		margin-bottom:10px;
+}

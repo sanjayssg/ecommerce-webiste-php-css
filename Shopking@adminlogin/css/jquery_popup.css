@@ -1,0 +1,124 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Fauna+One|Muli);
+#mainform{
+width:960px;
+margin:20px auto;
+padding-top:20px;
+font-family: 'Fauna One', serif;
+display:block;
+}
+
+#onclick{
+padding:3px;
+color:green;
+cursor:pointer;
+padding:5px 5px 5px 15px;
+width:70px;
+color:white;
+background-color:#123456;
+box-shadow:1px 1px 5px grey;
+border-radius:3px;
+}
+
+#popup{
+padding-top:80px;
+}
+.form{
+border-radius:2px;
+padding:20px 30px;
+box-shadow:0 0 15px;
+font-size:14px;
+font-weight:bold;
+width:350px;
+margin:20px 250px 0 35px;
+float:left;
+
+}
+
+#contactdiv{
+opacity:0.92;
+position: absolute;
+top: 0px;
+left: -600px;
+height: 100%;
+width: 100%;
+/*background: #000;*/
+display: none;
+}
+#logindiv{
+opacity:0.92;
+position:relative;
+height: 100%;
+width: 100%;
+display: none;
+background:#000;
+
+}
+
+#login,#contact{
+width:900px;
+
+background-color:white;
+font-family: 'Fauna One', serif;
+position: relative;
+border: 2px solid rgb(90, 158, 181);
+}
+.img{
+float: right;
+margin-top: -43px;
+margin-right: -48px;
+}
+#contact{
+left: 50%;
+top: 50%;
+margin-left:-210px;
+margin-top:-255px;
+}
+#login{
+margin-top:80px;
+margin-left:200px;
+position:fixed;
+	
+}
+
+.login_page{   /* input type text*/
+
+		padding: 5px 20px;
+		font-family:tahoma;
+		font-size:18px;
+		border:1px solid black; 
+		width:370px;
+		height:50px;
+		margin-left:50px;
+	}
+	.login_page:hover{
+		border:1px solid cyan;
+	}
+	.login{
+		margin-top:20px;
+		width:140px;
+		height:50px;
+		color:black;
+		font-size:20px;
+		margin-left:50px;
+		
+	
+	}
+	.forgot{
+		font-weight:bold;
+		margin-left:-520px;
+		text-decoration:none;
+		color:skyblue;
+	}
+	.signup{
+		font-weight:bold;
+		margin-right:200px;
+		text-decoration:none;
+		color:skyblue;
+	}
+	.table_style {
+	
+		background:white;
+		width:900;
+	}
